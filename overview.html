@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over view </title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- NavBar -->
+    <div class="container-fluid col-10">
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <a class="navbar-brand" href="./index.html"><img src="./logo.svg" alt=""></a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#collapse">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./invest.html">Invest</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Style Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./help.html">help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./overview.html"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                            </svg><span class="account-name">John Doe</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- NavBar -->
+    <section id="home">
+        <div class="about-img align-items-start ">
+            <div class="d-flex flex-column align-items-center justify-content-center mt-5 col-lg-13">
+                <h1 class="display-4 col-lg-5 text-center">Overview
+                </h1>
+            </div>
+        </div>
+
+    </section>
+    <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h3 class="my-0 fw-normal">Account balance</h3>
+                        <h4 class="my-0 fw-normal">€3213.50
+                        </h4>
+                    </div>
+                    <div class="card-body">
+
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Available funds
+                                €215.50</li>
+                            <li>Invested funds
+                                €2998.50</li>
+                            <li>Pending funds
+                                €0.00
+                                t</li>
+                            <li>In recovery
+                                €0.00</li>
+                            <li> </li>
+                            <li> </li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-success">Add Funds</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+
+                        <h3 class="my-0 fw-normal">Net annual return
+
+                        </h3>
+                        <h4 class="my-0 fw-normal">€3213.50
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Profit
+                                €1599.39</li>
+                            <li>Late Fees
+                                €2.38
+                            </li>
+                            <li>Bad Debt
+                                €0.00</li>
+                            <li>Service Fees
+                                -€11.7</li>
+                            <li>Affiliate Rewards
+                                -€28.90</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-success">Get started</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3 ">
+                        <h3 class="my-0 fw-normal">Portfolio</h3>
+                        <h4 class="my-0 fw-normal">27
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Current
+                                €2102.50</li>
+                            <li>1-15 Days Late
+                                €294.00</li>
+                            <li>16-30 Days Late
+                                €434.50</li>
+                            <li>31-60 Days Late
+                                €103.00</li>
+                            <li>60+ Days Late
+                                €0.00</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-success">Contact us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-success text-muted   ">
+
+        <!-- Section: Links  -->
+        <div class="container text-center text-md-start mt-5 ">
+            <!-- Grid row -->
+            <div class="row mt-5">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-4 ">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas me-3 text-secondary "></i><img src="./logo.svg" alt="">
+                    </h6>
+                    <p>
+                        We offer an extensive range of professional services and a high degree of specialization. We
+                        serves both private & public companies and bring over 35 years of experience
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Explore sites 
+                      </h6>
+                      <p>
+                        <a href="#!" class="text-reset">How to invest </a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset">Getting Funds </a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset">Reports </a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset">Affiliate program </a>
+                      </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Useful links
+                    </h6>
+                    <p>
+                        <a href="#!" class="text-reset">Invest</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">About us </a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">careers</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">News</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mt-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+                    <p>
+                        <i class="fas fa-envelope me-3 text-secondary"></i>
+                        info@example.com
+                    </p>
+                    <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+                    <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+            © Copyright:
+            <a class="text-reset fw-bold" href="">Gokul</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
